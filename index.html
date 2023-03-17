@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="bigWhoop">
+        <div id="wrapper">
+            <label>Aloitus Päivämäärä: <input type="date" name="start" id="start"></label>
+            <label>Lopetus Päivämäärä: <input type="date" name="end" id="end"></label>
+        </div>
+        <div id="wrapperVar">
+            <label><input name="tyyppi" type="radio" value="75">Tuulivoiman Tuotanto</label>
+            <label><input name="tyyppi" type="radio" value="74">Sähkön Tuotanto Suomessa</label>
+            <label><input name="tyyppi" type="radio" value="31">Sähkön Siirto Suomesta Ruotsiin</label>
+            <label><input name="tyyppi" type="radio" value="198">Sähkön yli-/alijäämä</label>
+        </div>
+        <button id="buttontest">Hae Tiedot</button>
+    </div>
+
+    
+
+    
+
+    <div id="chart"></div>
+    
+</body>
+<script src="./indexius.js"></script>
+</html>

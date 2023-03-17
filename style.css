@@ -1,0 +1,30 @@
+#wrapper{
+    font-size: 18px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#bigWhoop{
+    border: 1px solid black;
+    max-width: 500px;
+}
+
+#wrapperVar{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#wrapperVar > label{
+    padding: 5px;
+
+}
+
+#buttontest{
+    padding: 4px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
